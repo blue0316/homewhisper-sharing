@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Caveat";
+  src: url("Caveat.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "avenir-lt-w01_35-light1";
+  src: url("avenir-lt-w01_35-light1.woff2") format("woff2");
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.header,
+.main,
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  flex: 1;
+}
+
+.container {
+  width: 1024px;
+  max-width: 1024px;
+  padding: 0 24px;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  padding: 16px;
+  border-bottom: 1px solid #000;
+}
+
+.main-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.main-desc-wrapper > * {
+  text-align: center;
+}
+
+.main-desc-wrapper > p {
+  font-family: "avenir-lt-w01_35-light1";
+}
+
+.main-desc-wrapper > h1 {
+  font-family: "Caveat", cursive;
+}
+
+.link-block-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.link-block {
+  display: flex;
+  align-items: center;
+  margin: 0 16px;
+  font-family: "avenir-lt-w01_35-light1";
+  font-size: 20px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: white;
+}
+
+.link-android {
+  background-color: #3ddc84;
+}
+
+.link-ios {
+  background-color: black;
+}
+
+.footer-link {
+  display: block;
+  padding: 16px 0 32px;
+  font-family: "avenir-lt-w01_35-light1";
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
